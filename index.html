@@ -4,27 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>World.Net</title>
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@900&family=Poppins:wght@400;700&family=Reem+Kufi&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <a href="./index.html">World.Net</a>
+    <header class="header">
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-                <li><a href="#tariffs">Tarrifs</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
+        <div class="container header-container">
 
-        <address>
-            <a href="tel:88006549732">8 (800) 654-97-32</a>
-        </address>
+            <a class="header-logo" href="./index.html">World.Net</a>
+
+            <nav class="header-nav">
+
+                <ul class="header-nav-list">
+
+                    <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Home</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#about">About</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#reviews">Reviews</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="#tariffs">Tarrifs</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="">Contacts</a></li>
+
+                </ul>
+
+            </nav>
+
+            <address class="header-address">
+                <a class="header-address-link" href="tel:88006549732">8 (800) 654-97-32</a>
+            </address>
+        </div>
 
     </header>
 
