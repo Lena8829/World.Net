@@ -1,7 +1,7 @@
 body {
   font-family: Inter, sans-serif;
   color: #434b53;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 /* Reset styles */
@@ -34,9 +34,11 @@ img {
   padding: 15px 0;
   margin: 0 auto;
 }
-/* section {
+section {
   padding: 175px 0;
-} */
+  margin: 0 auto;
+}
+
 /* Header Section */
 .header {
   border-bottom: 3px solid #2c7250;
@@ -90,7 +92,7 @@ img {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 80px 0;
+  /* padding: 80px 0; */
 }
 .hero-title {
   color: #2e363e;
@@ -135,7 +137,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+}
+.features-section {
   padding: 172px 0;
 }
 .features-caption {
@@ -184,9 +187,6 @@ img {
 .about-container {
   display: flex;
   gap: 95px;
-}
-.about-section {
-  padding: 175px 0;
 }
 .about-img {
 }
@@ -244,4 +244,72 @@ img {
   letter-spacing: -0.01em;
 
   max-width: 166px;
+}
+
+/* Reviews Section */
+
+.reviews-container {
+}
+.reviews-txt {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+
+  max-width: 185px;
+  margin-bottom: 19px;
+}
+.reviews-txt-span {
+  color: #2c7250;
+}
+.reviews-caption {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: 0.03em;
+
+  max-width: 378px;
+  margin-bottom: 102px;
+  padding-left: 4px;
+}
+.reviews-caption-span {
+  color: #2c7250;
+}
+.reviews-list {
+  display: flex;
+  gap: 35px;
+}
+.reviews-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 365px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.reviews-img {
+  margin-bottom: 11px;
+}
+.reviews-list-item-caption {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0.03em;
+
+  max-width: 96px;
+  margin-bottom: 20px;
+}
+.reviews-list-item-txt {
+  color: #696969;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+
+  max-width: 334px;
+  text-align: center;
 }
