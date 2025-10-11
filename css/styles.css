@@ -1,7 +1,7 @@
 body {
   font-family: Inter, sans-serif;
   color: #434b53;
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 /* Reset styles */
@@ -140,6 +140,7 @@ section {
 }
 .features-section {
   padding: 172px 0;
+  background-color: #fafafa;
 }
 .features-caption {
   color: #000000;
@@ -247,7 +248,9 @@ section {
 }
 
 /* Reviews Section */
-
+.reviews-section {
+  background-color: #fafafa;
+}
 .reviews-container {
 }
 .reviews-txt {
@@ -280,6 +283,7 @@ section {
 .reviews-list {
   display: flex;
   gap: 35px;
+  justify-content: space-between;
 }
 .reviews-list-item {
   display: flex;
@@ -287,8 +291,8 @@ section {
   align-items: center;
 
   max-width: 365px;
-  background-color: #ffffff;
   border-radius: 5px;
+  background-color: #fff;
 }
 .reviews-img {
   margin-bottom: 11px;
@@ -312,4 +316,97 @@ section {
 
   max-width: 334px;
   text-align: center;
+}
+
+/* Tariff Section */
+
+.tariff-container {
+}
+.tariff-section {
+}
+.tariff-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.tariff-list-item {
+  width: 377px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tariff-img {
+  margin-bottom: 47px;
+  margin-top: 20px;
+}
+.tariff-list-item-caption {
+  color: #2e363e;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+.tariff-list-item-price {
+  color: #434b53;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  font-style: italic;
+}
+.tariff-list-item-descr {
+  color: #2e363e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+.tariff-list-item-speed-info {
+  color: #2e363e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+.speed-span {
+  color: #2e363e;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+.tariff-request-btn {
+  margin: 35px 35px 35px auto;
+  padding: 0;
+
+  width: 125px;
+  height: 24px;
+
+  color: #2c7250;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.tariff-price-wrapper {
+  display: flex;
+  gap: 59px;
+  align-items: center;
+}
+.tariff-info-box {
+  max-width: 307px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+
+  margin-bottom: 52px;
 }
